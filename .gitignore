@@ -47,6 +47,8 @@
 !.config/picom/*
 !.config/pulse/
 !.config/pulse/*
+!.config/qutebrowser/
+!.config/qutebrowser/*
 !.config/shell/
 !.config/shell/*
 !.config/sxiv/
