@@ -49,6 +49,12 @@
 !.config/pulse/*
 !.config/qutebrowser/
 !.config/qutebrowser/*
+!.config/qutebrowser/bookmarks/
+!.config/qutebrowser/bookmarks/*
+!.config/qutebrowser/qsettings/
+!.config/qutebrowser/qsettings/*
+!.config/qutebrowser/startpage/
+!.config/qutebrowser/startpage/*
 !.config/shell/
 !.config/shell/*
 !.config/sxiv/

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+                    shrink-to-fit=no">
+        <link rel="stylesheet" href="min.css">
+        <title>Home</title>
+  </head>
+  <body>
+      <div class="container">
+                <box>
+                    <pre>Jiang Yu's home</pre>
+                        <dt id="demo"></dt>
+                        <script>
+                         var d = new Date().toLocaleString();
+                         document.getElementById("demo").innerHTML = d;
+                        </script>
+                        <quote>
+                            <div id="messages001"> </div>
+                            <script>
+                             var array1 = ["The perfect is the enemy of the good. - Voltaire",
+                                           "Yard By Yard Life Is Hard, Inch By Inch It’s A Cinch! - Unknown",
+                                           "Brush it off. - Paul",
+                                           "Perfect is good done is better. - Unknown",
+                                           "Release early. Release often. - Eric S. Raymond",
+                                           "Worries are prayers for things you dont want.",
+                                           "If You’re Going Through Hell, Keep Going. - Unknown",
+                                           "Style is the residue of failure. - Unknown",
+                                           "There's no mistake so big you cant make it worse",
+                                           "We should contol the programs we use and not vice versa. - Richard Stallman",
+                                           "Stay Loose, Stay fast. - Ryan Benjamin"];
+                             function rnd() {
+                                 var ranmes = Math.floor(Math.random()*array1.length);
+                                 document.getElementById("messages001").innerHTML = array1[ranmes];innerHTML
+                             }
+                             onload = function () {
+                                 rnd();
+                             }
+                            </script>
+                        </quote>
+                </box>
+          <div class="search-block">
+              <form id="search-form" action="https://google.com/search?q=" method="get">
+                  <input type="text" name="q" id="search" autocomplete="off" style="text-align: center;margin: 5px;background: var(--background);color:var(--foreground);border-radius: 5px;border-style: none;height: 40px;width: 400px;font-size: 30px" placeholder="Google"/></form>
+          </div>
+          <div class="bookmarks">
+              <!-- Software -->
+              <div class="square">
+                  <div class="square-header">Coding</div>
+                    <a href="https://wiki.archlinux.org"target="_blank">Arch Wiki</a>
+	                <a href="https://aur.archlinux.org/" target="_blank">Arch User Repository</a>
+	                <a href="https://leetcode.com/" target="_blank">LeetCode</a>
+	                <a href="https://github.com/" target="_blank">GitHub</a>
+	                <a href="https://monkeytype.com/" target="_blank">Monkeytype</a>
+              </div>
+              <!-- Personal -->
+              <div class="square">
+                  <div class="square-header">Personal</div>
+                  <a href="https://perkcoffee.co/sg" target="_blank">Perk Coffee</a>
+                  <a href="https://weread.qq.com/" target="_blank">微信读书</a>
+                  <a href="https://nguwijy.azurewebsites.net" target="_blank">My Blog</a>
+                  <a href="https://reddit.com/" target="_blank">Reddit</a>
+                  <a href="https://youtube.com/" target="_blank">Youtube</a>
+                  <a href="https://facebook.com/" target="_blank">Facebook</a>
+              </div>
+              <!-- Math & Research -->
+              <div class="square">
+                  <div class="square-header">Math & Research</div>
+                  <a href="https://www.ams.org" target="_blank">American Mathematical Society</a>
+                  <a href="https://plato.stanford.edu" target="_blank">Stanford Encyclopedia of Philosophy</a>
+                  <a href="https://deepmind.com/" target="_blank">DeepMind</a>
+                  <a href="https://colab.research.google.com/" target="_blank">Google Colaboratory</a>
+                  <a href="https://scholar.google.com/" target="_blank">Google Scholar</a>
+              </div>
+          </div>
+      </div>
+  </body>
+</html>

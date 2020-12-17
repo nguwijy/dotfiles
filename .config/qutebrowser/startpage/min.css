@@ -1,0 +1,94 @@
+/* Import the CSS file.
+   Colors for pywal*/
+/* @import url('file:///home/probe/.cache/wal/colors.css'); */
+
+  /* color: #040409; */
+
+
+
+@import url('file:///home/nguwijy/.cache/wal/colors.css');
+body {
+  margin: 0px;
+  user-select: none;
+  background-size: cover;
+  background-color: var(--background);
+  background-image: var(--wallpaper)
+}
+pre{
+  font-family:Serif;
+  font-weight:bold;
+  font-size:40px;
+  color: var(--foreground);
+}
+datetime{
+  font-size: 16px;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bookmarks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 85%;
+  height: 50%;
+}
+.square {
+  padding: 0.4em;
+  font-family: Sans;
+  font-size: 1.1rem;
+  font-weight: 400;
+  /* width: 100%; */
+  width: 400px;
+  height: max-content;
+  margin: 0em .5em;
+  text-align: center;
+  background-color: var(--background);
+  border-radius: 15px;
+}
+.square-header {
+  font-family: Sans;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--foreground);
+  text-decoration: underline;
+  margin: 0em 0em .35em 0em;
+  font-style: italic;
+}
+.square-body {
+  vertical-align: top;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: var(--color4);
+  display: block;
+  margin: .5em 0em;
+}
+box {
+    text-decoration: none;
+    color: var(--foreground);
+    display: block;
+    background-color: var(--background);
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    font-family: Sans;
+}
+quote {
+    font-family:Serif;
+    font-weight:normal;
+    font-style:italic;
+    color: var(--foreground);
+    padding: 1px;
+}
+
+a:hover {
+  color:var(--foreground);
+}
+     | file:///home/nguwijy/.config/qutebrowser/startpage/min.html */
